@@ -16,8 +16,6 @@ cudnn.benchmark = True
 plt.ion()   # interactive mode
 
 
-
-
 class Trainer():
     def __init__(self, epochs=10):
         self.save_path = '../ckpt/last_ckpt.pt'
